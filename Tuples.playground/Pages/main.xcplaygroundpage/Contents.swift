@@ -15,11 +15,10 @@
  ### 1. Create a tuple to represent a person! The tuple should have a person's name in the first field and their age in the second field. Define the tuple as a variable named `person`.
  */
 // write your code here
+var person: (name: String, age: Int)
 
-
-
-
-
+person.name = "Dave"
+person.age = 31
 
 
 
@@ -27,7 +26,7 @@
  ### 2. Print out "<Name> is <Age> years old" using the tuple you created in Question 1.
  */
 // write your code here
-
+ print("\(person.name) is \(person.age) years old")
 
 
 
@@ -40,7 +39,7 @@
  */
 // write your code here
 
-
+person.age += 1
 
 
 
@@ -52,7 +51,7 @@
  */
 // write your code here
 
-
+print ("Happy \(person.age) birthday, \(person.name)")
 
 
 
@@ -64,7 +63,7 @@
  */
 // write your code here
 
-
+//Done
 
 
 
@@ -109,12 +108,6 @@
  ### 9. Create a _constant_ tuple called `human`, with named fields for `name` and `age`.
  */
 // write your code here
-
-
-
-
-
-
 
 
 /*:
